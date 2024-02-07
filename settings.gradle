@@ -1,0 +1,4 @@
+include 'customer'
+include 'product'
+include 'shopping'
+rootProject.name = 'onlinestore'
