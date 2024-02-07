@@ -1,0 +1,16 @@
+server:
+  port: 8081
+
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/Lconde8/microservices.git
+          searchPath: config-data
+          username: Lconde8
+          password: 13e20o3g
+  security:
+    user:
+      name: root
+      password: s3cr3t
